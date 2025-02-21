@@ -7,7 +7,12 @@ import Technologies from '../components/Technologies';
 import InnovativeSolutions from '../components/InnovativeSolutions';
 import CaseStudies from '../components/CaseStudies';
 import OurProcess from '../components/OurProcess';
+import ClientTestimonials from '../components/ClientTestimonials';
+import Tutorials from '../components/Tutorials';
+import FAQ from '../components/FAQ';
+import Pricing from '../components/Pricing';
 import TrustedBy from '../components/TrustedBy';
+import Footer from '../components/Footer';
 
 const Index = () => {
   return (
@@ -20,8 +25,13 @@ const Index = () => {
         <InnovativeSolutions />
         <CaseStudies />
         <OurProcess />
+        <ClientTestimonials />
+        <Tutorials />
+        <FAQ />
+        <Pricing />
         <TrustedBy />
       </main>
+      <Footer />
     </div>
   );
 };
